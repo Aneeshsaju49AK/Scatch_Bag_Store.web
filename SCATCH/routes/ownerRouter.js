@@ -20,6 +20,7 @@ if (process.env.NODE_ENV === "development") {
 }
 
 router.get("/", function (req, res) {
+    res.render("index");
     res.send("router owner is working");
 });
 
